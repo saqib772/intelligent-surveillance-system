@@ -1,0 +1,62 @@
+/* Contact.css */
+#contact-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 28px;
+  }
+  
+  #contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  #name,
+  #email,
+  #phone,
+  #subject,
+  #message {
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    transition: border-color 0.3s;
+  }
+  
+  #name:focus,
+  #email:focus,
+  #phone:focus,
+  #subject:focus,
+  #message:focus {
+    border-color: #007bff;
+  }
+  
+  #message {
+    resize: none;
+  }
+  
+  #submit-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #submit-btn:hover {
+    background-color: #0056b3;
+  }
+  

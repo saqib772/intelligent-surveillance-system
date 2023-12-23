@@ -1,0 +1,15 @@
+/* Footer.css */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  flex-shrink: 0; /* Prevents the footer from shrinking */
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+}

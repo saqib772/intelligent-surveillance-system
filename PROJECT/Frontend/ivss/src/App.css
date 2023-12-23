@@ -1,0 +1,14 @@
+/* App.css or main container where your content resides */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the container stretches to at least the height of the viewport */
+  }
+  
+  .content {
+    flex: 1; /* Allows content to expand to fill available space */
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }

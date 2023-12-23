@@ -1,0 +1,144 @@
+/* Add this CSS to your stylesheets or CSS file */
+/* Adding spacing between rows */
+.row {
+    margin-bottom: 30px;
+  }
+  
+  /* Style for Left Column: Text */
+  .col-md-6:nth-child(odd) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* Style for Right Column: Image */
+  .col-md-6:nth-child(even) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* Adjusting image size for responsiveness */
+  .col-md-6 img {
+    max-width: 100%; /* Ensure image responsiveness */
+    max-height: 300px; /* Limit image height */
+    border-radius: 8px; /* Add a slight border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  }
+  h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    /* Additional styles such as font-weight, font-family, etc. can be added */
+  }
+  
+  /* Update paragraph styles */
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    /* Additional styles such as font-family, letter-spacing, etc. can be added */
+  }
+  /* Security System Consultation Section */
+.security-consultation {
+    margin-top: 5rem;
+  }
+  
+  .security-image {
+    position: relative;
+  }
+  
+  .security-image img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  .security-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: #333;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  
+  .security-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .security-text .subheading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #666;
+  }
+  
+  .security-text .description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #777;
+    margin-bottom: 2rem;
+  }
+  
+  .consultation-principles {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin-top: -150px; /* Adjust as needed */
+    margin-left: -250px;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .principle-number {
+    flex-shrink: 0;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .principle-number h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: #666;
+  }
+  
+  .consultation-principles h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .consultation-principles p {
+    color: #777;
+    margin-bottom: 1rem;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content */
+    padding: 20px; /* Adjust padding for spacing */
+    height: 200px;
+  }
+  
+  .card img {
+    max-width: 100%; /* Ensure image responsiveness */
+    height: auto;
+    border-radius: 8px; /* Add a slight border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    /* Additional styles for the title */
+  }
+  

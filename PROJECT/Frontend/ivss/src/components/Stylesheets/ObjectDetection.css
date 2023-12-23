@@ -1,0 +1,68 @@
+/* ObjectDetection.css */
+.object-detection-container {
+    margin-top: 40px;
+    margin-bottom: auto;
+  }
+  
+  .object-detection-form {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .object-detection-form h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .object-detection-form label {
+    font-weight: bold;
+  }
+  
+  .object-detection-form .form-control {
+    margin-bottom: 20px;
+  }
+  
+  .object-detection-form .btn-primary {
+    width: 100%;
+  }
+  
+  .other-services {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .other-services h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .other-services p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .other-services ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .other-services li {
+    margin-bottom: 10px;
+  }
+  
+  .other-services a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .other-services a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  

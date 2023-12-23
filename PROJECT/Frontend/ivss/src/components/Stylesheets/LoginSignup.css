@@ -1,0 +1,76 @@
+/* LoginSignup.css */
+
+/* Form container styles */
+#form-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  #main{
+    margin-bottom: 350px;
+  }
+  
+  /* Form styles */
+  #login-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+  }
+  
+  /* Input field styles */
+  #emailInput,
+  #passwordInput {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  #emailInput:focus,
+  #passwordInput:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Checkbox styles */
+  #rememberMeCheckbox {
+    margin-right: 5px;
+  }
+  
+  /* Button styles */
+  #submitButton {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #submitButton.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  #submitButton.btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  #toggleButton {
+    border: 1px solid #007bff;
+    background-color: transparent;
+    color: #007bff;
+  }
+  
+  #toggleButton:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
