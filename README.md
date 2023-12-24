@@ -1,10 +1,10 @@
- **#Intelligent Surveillance System with Darknet YOLO**
+ **Intelligent Surveillance System with Darknet YOLO**
 
-**## Overview**
+**##Overview**
 
 This project demonstrates a real-time intelligent surveillance system that harnesses the power of Darknet YOLO for object detection, crash detection, social distancing monitoring, fall detection, and email alerts. It integrates Python, C, React, Flask, and the YOLOv4 model to deliver a comprehensive solution.
 
-**## Key Features**
+**##Key Features**
 
 - **Live Object Detection:** Detects objects in live video feeds using Darknet YOLOv4.
 - **Crash Detection:** Identifies potential crashes or collisions in real-time.
