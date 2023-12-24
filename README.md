@@ -62,7 +62,7 @@ To Run the Yolov4 Using Darknet as for this Project, You Need to Install Cmake, 
 **#Contributing**
 
 We welcome contributions! Please refer to the contribution guidelines for details.
-Web Developer : @MDaniyalTariq
+
 
 
 **#License**
