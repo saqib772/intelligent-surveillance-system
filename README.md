@@ -35,36 +35,36 @@ darknet/build/darknet/x64/
 ```
 To Run the Yolov4 Using Darknet as for this Project, You Need to Install Cmake, CUDNN, CUDA, Opencv and NVIDIA GPU.
 
-**## Setup**
+**#Setup**
 
 1. Clone this repository.
 2. Install dependencies: `pip install -r requirements.txt`
 3. Build Darknet: Follow the official Darknet build instructions.
 4. Download pre-trained YOLOv4 weights: Place them in the `models` directory.
 
-**## Running the System**
+**#Running the System**
 
 1. Start the backend: `python backend/app.py`
 2. Start the frontend: `cd ivss && npm run dev`
 
-**## Usage**
+**#Usage**
 
 1. Access the web interface at `http://localhost:5000` (or the specified port).
 2. Observe live camera feeds with detections.
 3. Configure email settings for alerts.
 
-**## Additional Features**
+**#Additional Features**
 
 - **Customizable Detection Classes:** Adjust the model to detect specific objects of interest.
 - **Configurable Alert Thresholds:** Fine-tune the sensitivity of detection triggers.
 - **Video Archiving:** Store recorded footage for later review.
 
-**## Contributing**
+**#Contributing**
 
 We welcome contributions! Please refer to the contribution guidelines for details.
+Web Developer : @MDaniyalTariq
 
 
-
-**## License**
+**#License**
 
 This project is licensed under the MIT License.
