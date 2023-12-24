@@ -1,4 +1,4 @@
- **# Intelligent Surveillance System with Darknet YOLO**
+ **#Intelligent Surveillance System with Darknet YOLO**
 
 **## Overview**
 
